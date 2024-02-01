@@ -1,0 +1,49 @@
+body{
+    height: 300vh;
+}
+.search-bar{
+    border: none;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 30px ;
+    margin-right: 10px;
+}
+.button{
+    border-radius: 20px;
+}
+.rotate-txt{
+    font-weight: 900;
+    padding-bottom: 3.5px;
+    text-align: center;
+    line-height: 30px;
+    transform: rotate(90deg);
+}
+ul li:not(:first-child){
+    border-left: 1px solid rgba(255, 255, 255, 0.151);
+}
+ul li{
+    padding-right: 10px;
+}
+ul li:hover{
+    background-color: rgba(249, 249, 249, 0.218);
+}
+.nav-back{
+    background-color: rgba(0, 0, 0, 0.681);
+    transition: background-color 0.3s;
+}
+.item-color{
+    color: rgb(255, 255, 255);
+}
+.nav-back2{
+    background-color: rgba(216, 216, 216, 0.681);
+    transition: background-color 0.3s;
+}
+.item-color2{
+    color: rgb(0, 0, 0);
+}
+.txt{
+    text-align: center;
+    margin-top: 200px;
+    height: 75vh;
+}
